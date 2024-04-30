@@ -37,7 +37,7 @@ const routes = [
     component: () => import('../views/MyDataView.vue')
   },
   {
-    path: '/third/mycheck',
+    path: '/mycheck',
     name: 'mycheck',
     component: () => import('../views/MyCheckView.vue'),
     meta: {
@@ -45,7 +45,7 @@ const routes = [
     }
   },
   {
-    path: '/third/myleave',
+    path: '/myleave',
     name: 'myleave',
     component: () => import('../views/MyLeaveView.vue'),
     meta: {
@@ -53,7 +53,7 @@ const routes = [
     }
   },
   {
-    path: '/third/overtime',
+    path: '/overtime',
     name: 'overtime',
     component: () => import('../views/OvertimeView.vue'),
     meta: {

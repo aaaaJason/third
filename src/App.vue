@@ -119,15 +119,15 @@ export default {
     },
     goToMyCheckView() {
      
-      this.goToNewWindow('/third/mycheck');
+      this.goToNewWindow('/mycheck');
     }, 
     goToMyLeaveView() {
      
-      this.goToNewWindow('/third/myleave');
+      this.goToNewWindow('/myleave');
     },  
     goToOvertimeView() {
       
-      this.goToNewWindow('/third/overtime');
+      this.goToNewWindow('/overtime');
     }, 
     
     handleButtonClick() {
