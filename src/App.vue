@@ -10,7 +10,7 @@
     <v-row justify="center" align="center">
     <v-col cols="12">
     <v-main>
-        <!-- 左側菜單容器 -->
+        <!-- 左側菜單 -->
       
       <div class="sidebar" v-if="showAppBar">
           <!-- 使用 v-for 渲染按钮列表 -->
